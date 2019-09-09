@@ -65,8 +65,8 @@ class Business extends React.Component{
                         <thead>
                             <tr>
                             <th>Business Name</th>
-                            <th>Address</th>
                             <th>Rating</th>
+                            <th>Address</th>
                             </tr>
                         </thead>
                         <tbody>

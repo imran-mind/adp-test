@@ -70,12 +70,9 @@ class Business extends React.Component{
                             </tr>
                         </thead>
                         <tbody>
-                        {
-                            this.isValidArray(this.state.businessList) ? 
-                                this.state.businessList.map((shopObj) => {
+                        {this.state.businessList.map((shopObj) => {
                                     return this.renderShops(shopObj);
-                                })
-                        : null}
+                                })}
                         </tbody>
                     </Table>
                     : 
